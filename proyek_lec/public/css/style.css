@@ -1,0 +1,58 @@
+
+
+  a {
+    color: inherit;
+    }
+
+    .div-center{
+    width: 450px;
+    height: 425px;
+    background-color: 	#54B4D3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 200px;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 1em 2em;
+    border-bottom: 4px solid #ccc;
+    display: table;
+    border-radius:2%;
+    }
+
+.brruh
+{
+    padding-top: 425px;
+}
+
+  div.content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  body{
+    height:100%;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

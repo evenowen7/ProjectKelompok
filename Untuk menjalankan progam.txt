@@ -1,0 +1,13 @@
+1. Kita harus mengaktifkan XAMPP Apache dan MySQL.
+2. Kita dapat membuka Visual Studio Code dan open folder “proyek_lec”.
+3. Bila directory VS Code bukan di /proyek_lec, kita bisa menggunakan command cd proyek_lec di terminal.
+4. Membuat database di dalam localhost phpmyadmin bernama can_cell
+5. Drag semua asset dalam folder asset ke dalam folder storage/app/public/images
+6. Menjalankan command php artisan storage:link
+7. Menjalankan command php artisan migrate:fresh --seed
+8. Menjalankan command php artisan serve
+
+
+Username untuk admin adalah admin1@gmail.com
+Password untuk admin adalah admin1
+Untuk membuat user, kita pertama harus ke register page terlebih dahulu.
